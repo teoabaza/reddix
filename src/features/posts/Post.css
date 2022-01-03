@@ -1,0 +1,51 @@
+.post {
+  background-color: rgb(252, 250, 250);
+  text-align: left;
+  width: 50%;
+  padding: 1%;
+  box-shadow: rgba(160, 159, 159, 0.56) 0px 22px 70px 4px;
+  border-radius: 1.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.4% 1%;
+}
+
+.first {
+  display: flex;
+  color: rgba(65, 63, 63, 0.56);
+  font-size: smaller;
+}
+
+.first p {
+  margin-right: 2%;
+}
+
+.subredditName {
+  color: black;
+}
+
+.subredditName:hover {
+  color: rgba(20, 4, 245, 0.7);
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5%;
+  margin: 0 auto;
+}
+
+.text {
+  padding-right: 1%;
+  margin-top: 1.4%;
+  margin-bottom: 0.2%;
+}
+
+.third {
+  display: flex;
+  color: rgba(65, 63, 63, 0.56);
+  font-size: smaller;
+}
+
+.third p {
+  margin-right: 2%;
+}

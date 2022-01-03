@@ -1,0 +1,78 @@
+.sortButton,
+.timeButton {
+  width: 100%;
+  border-style: none;
+  font-size: larger;
+  background-color: transparent;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.dropdown {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(20, 4, 245, 0.7);
+  font-size: 0.9rem;
+  width: 10%;
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  background-color: white;
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(170, 172, 184, 0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content p {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dropdown-content p:hover {
+  color: #ffffff;
+  background-color: rgba(20, 4, 245, 0.7);
+}
+
+.currentFilters{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentFilter1 {
+  display: inline-flex;
+  padding: 0 0.5%;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+}
+
+.currentFilter1 button {
+  height: 50%;
+  margin-left: 0.5%;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.currentFilter2 {
+  display: inline-flex;
+  padding: 0 0.5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentFilter2 button {
+  height: 50%;
+  margin-left: 2%;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
